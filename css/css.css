@@ -1,0 +1,51 @@
+section{
+    border: solid 1px black;
+    width: 100vw;
+    height: 50vw;
+}
+
+/* header */
+.header{
+
+}
+
+/* HeroPage */
+#HeroPage{
+
+}
+
+/* WhyBJJ */
+#WhyBJJ{
+
+}
+
+/* Parallax1 */
+#Parallax1{
+
+}
+
+/* Schedule */
+#Schedule{
+
+}
+
+/* Trainers */
+#Trainers{
+
+}
+
+/* Parallax2 */
+#Parallax2{
+
+}
+
+/* ContactUs */
+#ContactUs{
+
+}
+
+/* alert */
+#alert{
+    border: 1px solid green;
+    padding: 5px;
+}

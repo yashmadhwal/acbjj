@@ -1,51 +1,193 @@
-section{
-    border: solid 1px black;
-    width: 100vw;
-    height: 50vw;
+/* Basics */
+
+body{
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-size: 1vw;
+    line-height: 1.5;
 }
 
-/* header */
-.header{
+section{
+    padding: 10vw;
+}
 
+.heading{
+    font-size: 2vw;
+}
+
+.subheading{
+    font-size: 1.3vw;
+}
+
+
+
+
+
+
+
+/* header */
+header{
 }
 
 /* HeroPage */
 #HeroPage{
-
+    position: relative;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
 }
+    #herovideo{
+        position: relative;
+        top: 0;
+        z-index: -1;
+
+        height: 100%;
+        width: 177.77777778vh;
+        min-width: 100%;
+        min-height: 56.25vw;
+
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+
+        background-color: rgb(50, 50, 50);
+    }
+
+    #herocontent{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
 
 /* WhyBJJ */
 #WhyBJJ{
-
+    background-color: rgb(50, 50, 50);
 }
+    #whybjjheading{
+        margin-bottom: 1vw;
+    }
+
+    #whybjjcontent{
+        display: flex;
+        justify-content: center;
+    }
+
+        .whybjjitem{
+            margin: 2vw;
+            width: 15vw;
+        }
+            .whybjjitemsubheadung{
+                margin-bottom: 0.5vw;
+            }
 
 /* Parallax1 */
 #Parallax1{
-
+    background-image: url(../images/parallax1.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
 
 /* Schedule */
 #Schedule{
-
+    background-color: rgb(50, 50, 50);
 }
+    #scheduleheading{
+        margin-bottom: 1vw;
+    }
+
+    .schedulerow{
+        display: flex;
+        justify-content: center;
+    }
+
+        .schedulecontent{
+            margin: 1vw;
+            width: 10vw;
+        }
 
 /* Trainers */
 #Trainers{
-
+    padding: 0;
+    display: flex;
 }
+    .trainer{
+        height: 50vw;
+        width: 33.3vw;
+    }
+    #trainer1{
+        background-image: url(../images/trainer1.png);
+        background-size: cover;
+        background-position: center;
+    }
+    #trainer2{
+        background-image: url(../images/trainer2.png);
+        background-size: cover;
+        background-position: center;
+        width: 33.4vw;
+    }
+    #trainer3{
+        background-image: url(../images/trainer3.png);
+        background-size: cover;
+        background-position: center;
+    }
+        .trainerinfocontainer{
+            background-color: rgba(50, 50, 50, 0.5);
+            height: 50vw;
+            opacity: 0;
+            transition-duration: 0.3s;
+        }
+        .trainerinfocontainer:hover{
+            opacity: 1;
+        }
+        .trainerinfocontainer:hover {
+            opacity: 1;
+        }
+            .tranerinfocontent{
+                position: relative;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+            }
 
 /* Parallax2 */
 #Parallax2{
-
+    background-image: url(../images/parallax2.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
 
 /* ContactUs */
 #ContactUs{
-
+    background-color: rgb(50, 50, 50);
+    display: flex;
+    justify-content: center;
 }
+    .contactcontainer{
+        height: 30vw;
+        width: 40vw;
+    }
+        #contactcontent{
+            position: relative;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+    #map{
+        background-color: red;
+    }
 
 /* alert */
 #alert{
-    border: 1px solid green;
     padding: 5px;
+    position: fixed;
+    left: 2vw;
+    bottom: 2vw;
+    background-color: red;
 }

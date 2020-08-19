@@ -79,25 +79,52 @@ header{
 
 /* WhyBJJ */
 #WhyBJJ{
-    background-color: rgb(25, 25, 25);;
+    background-color: rgb(25, 25, 25);
+    font-family: 'Roboto Mono', monospace;
 }
     #whybjjheading{
         margin-bottom: 1vw;
+        
     }
 
     #whybjjcontent{
         display: flex;
         justify-content: center;
+        
     }
-
-        .whybjjitem{
-            margin: 2vw;
-            width: 15vw;
+    
+    .whybjjitem{
+        margin: 0.5vw;
+        width: 15vw;
+        
+        }
+        .WhybjjIcon{
+            filter: invert(1);
+            margin: auto;
+            height: 6vw;
+            width: 6vw;
+            background-size: cover;
+            background-position: center;
         }
             .whybjjitemsubheadung{
-                margin-bottom: 0.5vw;
+                margin-bottom: 0.1vw;
             }
-
+        
+        #whybjjicon-1{
+            background-image: url(../images/icons/Icon1.png);
+        }
+        #whybjjicon-2{
+            background-image: url(../images/icons/Icon2.png);
+        }
+        #whybjjicon-3{
+            background-image: url(../images/icons/Icon3.png);
+        }
+        #whybjjicon-4{
+            background-image: url(../images/icons/Icon4.png);
+        }
+        #whybjjicon-5{
+            background-image: url(../images/icons/Icon5.png);
+        }
 /* Parallax1 */
 #Parallax1{
     background-image: url(../images/parallax1.jpg);
@@ -108,7 +135,8 @@ header{
 
 /* Schedule */
 #Schedule{
-    background-color: rgb(25, 25, 25);;
+    background-color: rgb(25, 25, 25);
+    font-family: 'Roboto Mono', monospace;
 }
     #scheduleheading{
         margin-bottom: 1vw;
@@ -136,6 +164,9 @@ header{
         width: 32vw;
 
     }
+    .TrinerName{
+        font-family: 'Roboto Mono', monospace;
+    }
     #trainer1{
         background-image: url(../images/Trainers/trainer1.jpg);
         background-size: cover;
@@ -159,20 +190,19 @@ header{
 
     .trainer:hover{
         filter: grayscale(100%);
-        
     }
+
         .trainerinfocontainer{
             background-color: rgba(31, 31, 31, 0.5);
             height: 50vw;
             opacity: 0;
             transition-duration: 0.3s;
         }
+
         .trainerinfocontainer:hover{
             opacity: 1;
         }
-        /* .trainerinfocontainer:hover {
-            opacity: 1;  
-        } */
+
             .tranerinfocontent{
                 position: relative;
                 left: 50%;

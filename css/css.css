@@ -53,7 +53,8 @@ header{
         top: 50%;
         transform: translate(-50%, -50%);
 
-        background-color: rgb(50, 50, 50);
+        background-color: rgb(173, 173, 173);
+        filter: grayscale(100%);
     }
 
     #herocontent{
@@ -65,7 +66,7 @@ header{
 
 /* WhyBJJ */
 #WhyBJJ{
-    background-color: rgb(50, 50, 50);
+    background-color: rgb(25, 25, 25);;
 }
     #whybjjheading{
         margin-bottom: 1vw;
@@ -86,7 +87,7 @@ header{
 
 /* Parallax1 */
 #Parallax1{
-    background-image: url(../images/parallax1.png);
+    background-image: url(../images/parallax1.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -94,7 +95,7 @@ header{
 
 /* Schedule */
 #Schedule{
-    background-color: rgb(50, 50, 50);
+    background-color: rgb(25, 25, 25);;
 }
     #scheduleheading{
         margin-bottom: 1vw;
@@ -114,29 +115,40 @@ header{
 #Trainers{
     padding: 0;
     display: flex;
+    justify-content: space-around;
+    background-color: rgb(25, 25, 25);
 }
     .trainer{
         height: 50vw;
-        width: 33.3vw;
+        width: 32vw;
+
     }
     #trainer1{
-        background-image: url(../images/trainer1.png);
+        background-image: url(../images/Trainers/trainer1.jpg);
         background-size: cover;
         background-position: center;
+        
     }
     #trainer2{
-        background-image: url(../images/trainer2.png);
+        background-image: url(../images/Trainers/trainer2.png);
         background-size: cover;
         background-position: center;
+        
         width: 33.4vw;
     }
     #trainer3{
-        background-image: url(../images/trainer3.png);
+        background-image: url(../images/Trainers/trainer3.png);
         background-size: cover;
         background-position: center;
+        
+    }
+
+    .trainer:hover{
+        filter: grayscale(100%);
+        
     }
         .trainerinfocontainer{
-            background-color: rgba(50, 50, 50, 0.5);
+            background-color: rgba(31, 31, 31, 0.5);
             height: 50vw;
             opacity: 0;
             transition-duration: 0.3s;
@@ -144,9 +156,9 @@ header{
         .trainerinfocontainer:hover{
             opacity: 1;
         }
-        .trainerinfocontainer:hover {
-            opacity: 1;
-        }
+        /* .trainerinfocontainer:hover {
+            opacity: 1;  
+        } */
             .tranerinfocontent{
                 position: relative;
                 left: 50%;
@@ -154,9 +166,14 @@ header{
                 transform: translate(-50%, -50%);
             }
 
+            
+/* Contact Form */
+#contact_form{
+    background-color: rgb(25, 25, 25);
+}
 /* Parallax2 */
 #Parallax2{
-    background-image: url(../images/parallax2.png);
+    background-image: url(../images/parallax2.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -164,13 +181,20 @@ header{
 
 /* ContactUs */
 #ContactUs{
-    background-color: rgb(50, 50, 50);
+    background-color: rgb(25, 25, 25);;
     display: flex;
     justify-content: center;
 }
     .contactcontainer{
         height: 30vw;
         width: 40vw;
+    }
+    iframe{
+        height: 30vw;
+        width: 40vw;
+    }
+    iframe:hover{
+        filter: grayscale(0%);
     }
         #contactcontent{
             position: relative;
@@ -181,7 +205,10 @@ header{
 
     #map{
         background-color: red;
+        border: black 2px solid;
     }
+
+
 
 /* alert */
 #alert{

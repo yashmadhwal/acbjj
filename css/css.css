@@ -230,10 +230,11 @@ header{
     justify-content: center;
 }
     .contactcontainer{
+        border: white 1px solid;
         height: 30vw;
         width: 40vw;
     }
-    iframe{
+    #map_frame{
         height: 30vw;
         width: 40vw;
     }
@@ -247,10 +248,10 @@ header{
             transform: translate(-50%, -50%);
         }
 
-    #map{
+    /* #map{
         background-color: red;
         border: black 2px solid;
-    }
+    } */
 
 
 

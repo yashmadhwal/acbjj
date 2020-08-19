@@ -64,6 +64,19 @@ header{
         transform: translate(-50%, -50%);
     }
 
+    #herocontent-1{
+        font-family: 'Taviraj', serif;
+        font-size: 1.5vw;
+        -webkit-text-stroke: 1px black;
+    }
+
+    #herocontent-2{
+        font-family: 'Taviraj', serif;
+        font-size: 5vw;
+        -webkit-text-stroke: 1px black;
+    }
+
+
 /* WhyBJJ */
 #WhyBJJ{
     background-color: rgb(25, 25, 25);;
@@ -129,6 +142,7 @@ header{
         background-position: center;
         
     }
+
     #trainer2{
         background-image: url(../images/Trainers/trainer2.png);
         background-size: cover;

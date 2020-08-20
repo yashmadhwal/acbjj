@@ -22,12 +22,37 @@ section{
 
 
 
-
-
-
-
 /* header */
-header{
+#NavigationBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px white solid;
+    height: 4vh;
+}
+.navbar_area{
+    border: blanchedalmond 1px solid;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    /* or
+    justify-content: space-between; */
+    font-family: 'Taviraj', serif;
+    font-size: 1.5rem;
+    margin: auto;
+    padding: 0px 0px 0px 0px;
+}
+
+#NavBarAreaLeft{
+    width: 20vw;
+}
+
+#NavBarAreaCenter{
+    width: 60vw;
+}
+
+#NavBarAreaRight{
+    width: 20vw;
 }
 
 /* HeroPage */
@@ -136,6 +161,7 @@ header{
 /* Schedule */
 #Schedule{
     background-color: rgb(25, 25, 25);
+    
     font-family: 'Roboto Mono', monospace;
 }
     #scheduleheading{
@@ -153,6 +179,13 @@ header{
         }
 
 /* Trainers */
+#Our_Trainer{
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(25, 25, 25);
+    padding-top: 1vw;
+    padding-bottom: 0.3vw;
+}
+
 #Trainers{
     padding: 0;
     display: flex;
@@ -227,25 +260,34 @@ header{
 #ContactUs{
     background-color: rgb(25, 25, 25);;
     display: flex;
-    justify-content: center;
+    
+    
+
 }
     .contactcontainer{
+        
         border: white 1px solid;
         height: 30vw;
-        width: 40vw;
+        width: 39vw;
+        display: flex;
+        align-items: center;
     }
     #map_frame{
-        height: 30vw;
-        width: 40vw;
+        height: 29vw;
+        width: 38vw;
+        margin: auto;
+
     }
     iframe:hover{
         filter: grayscale(0%);
     }
         #contactcontent{
-            position: relative;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
+            border: white 1px solid;
+            margin: auto;
+            /* position: relative; */
+            /* left: 50%; */
+            /* top: 50%; */
+            /* transform: translate(-50%, -50%); */
         }
 
     /* #map{

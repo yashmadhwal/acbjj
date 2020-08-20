@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/css/css.css">
+    
 
     <!-- <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css"> -->
     <!--===============================================================================================-->
@@ -32,13 +33,25 @@
 </head>
 
 <body>
-    <!-- Header -->
-    <header>
-
-    </header>
+    
 
     <!-- Section: HeroPage -->
+    
     <section id="HeroPage">
+        <!-- Navigation Here -->
+        <header id='NavigationBar'>
+            <div id='NavBarAreaLeft' class="navbar_area">Empty</div>
+
+            <div id='NavBarAreaCenter' class="navbar_area">
+                <!-- 5 Boxes -->
+                <div id="MenuItem">Зачем</div>
+                <div id="MenuItem">Расписание</div>
+                <div id="MenuItem">Logo</div>
+                <div id="MenuItem">Тренеры</div>
+                <div id="MenuItem">Контакты</div>
+            </div>
+            <div id='NavBarAreaRight' class="navbar_area">Empty</div>
+        </header>
 
         <video autoplay loop id="herovideo">
             <!-- use only 16:9 video -->
@@ -132,7 +145,12 @@
 
     </section>
 
+    <!-- Section: Parallax2 -->
+    <section id="Parallax2">
+    </section>
+
     <!-- Section: Trainers -->
+    <div id="Our_Trainer" class='heading'>Наши Тренеры</div>
     <section id="Trainers">
         <div id="trainer1" class="trainer">
             <div class="trainerinfocontainer">
@@ -168,14 +186,17 @@
                 </div>
             </div>
         </div>
+    
     </section>
 
+    
+
     <!-- Section: Contact Us -->
-    <!-- <div class="container-contact100" id='contact_form'> -->
     <section id='contact_form'>
-        <!-- <span class="contact100-form-symbol">
+        <div class="container-contact100" id='contact_form'>
+        <span class="contact100-form-symbol">
                     <img src="images/icons/symbol-01.png" alt="SYMBOL-MAIL">
-                </span> -->
+                </span>
         <div id="contact_us_heading">
             Contact Us
         </div>
@@ -202,15 +223,19 @@
                 </button>
             </div>
         </form>
-        <!-- </div> -->
+        </div>
     </section>
 
-    <!-- Section: Parallax2 -->
-    <section id="Parallax2">
-    </section>
 
     <!-- Section: ContactUs -->
     <section id="ContactUs">
+        
+         <!-- Maps -->
+         <div id="map" class="contactcontainer">
+            <iframe id='map_frame'
+                src="https://yandex.ru/map-widget/v1/?um=constructor%3A08c9e2faac842616979a6e42d6f87a1446c6a65679e3302a6b00336394b9750e&amp;source=constructor"
+                width="600" height="450" frameborder="0"></iframe>
+        </div>
         
         <!-- Host_Contact Information -->
         <div class="contactcontainer">
@@ -224,12 +249,6 @@
             </div>
         </div>
 
-        <!-- Maps -->
-        <div id="map" class="contactcontainer">
-            <iframe id='map_frame'
-                src="https://yandex.ru/map-widget/v1/?um=constructor%3A08c9e2faac842616979a6e42d6f87a1446c6a65679e3302a6b00336394b9750e&amp;source=constructor"
-                width="600" height="450" frameborder="0"></iframe>
-        </div>
     </section>
 
     <!-- Section Footer -->

@@ -1,74 +1,75 @@
-
-
-
-
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
 
 @font-face {
   font-family: OpenSans-Regular;
-  src: url('../fonts/OpenSans/OpenSans-Regular.ttf'); 
+  src: url("../fonts/OpenSans/OpenSans-Regular.ttf");
 }
-
 
 /*//////////////////////////////////////////////////////////////////
 [ RESTYLE TAG ]*/
 
 * {
-	margin: 0px; 
-	padding: 0px; 
-	box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-body, html {
-	height: 100%;
-	font-family: OpenSans-Regular, sans-serif;
+body,
+html {
+  height: 100%;
+  font-family: OpenSans-Regular, sans-serif;
 }
 
 /*---------------------------------------------*/
 a {
-	font-family: OpenSans-Regular;
-	font-size: 14px;
-	line-height: 1.7;
-	color: #666666;
-	margin: 0px;
-	transition: all 0.4s;
-	-webkit-transition: all 0.4s;
+  font-family: OpenSans-Regular;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #666666;
+  margin: 0px;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
 }
 
 a:focus {
-	outline: none !important;
+  outline: none !important;
 }
 
 a:hover {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 /*---------------------------------------------*/
-h1,h2,h3,h4,h5,h6 {
-	margin: 0px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
 }
 
 p {
-	font-family: OpenSans-Regular;
-	font-size: 14px;
-	line-height: 1.7;
-	color: #666666;
-	margin: 0px;
+  font-family: OpenSans-Regular;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #666666;
+  margin: 0px;
 }
 
-ul, li {
-	margin: 0px;
-	list-style-type: none;
+ul,
+li {
+  margin: 0px;
+  list-style-type: none;
 }
-
 
 /*---------------------------------------------*/
 input {
-	outline: none;
-	border: none;
+  outline: none;
+  border: none;
 }
 
 textarea {
@@ -76,20 +77,36 @@ textarea {
   border: none;
 }
 
-textarea:focus, input:focus {
+textarea:focus,
+input:focus {
   border-color: transparent !important;
 }
 
+input::-webkit-input-placeholder {
+  color: #555555;
+}
+input:-moz-placeholder {
+  color: #555555;
+}
+input::-moz-placeholder {
+  color: #555555;
+}
+input:-ms-input-placeholder {
+  color: #555555;
+}
 
-input::-webkit-input-placeholder { color: #555555;}
-input:-moz-placeholder { color: #555555;}
-input::-moz-placeholder { color: #555555;}
-input:-ms-input-placeholder { color: #555555;}
-
-textarea::-webkit-input-placeholder { color: #555555;}
-textarea:-moz-placeholder { color: #555555;}
-textarea::-moz-placeholder { color: #555555;}
-textarea:-ms-input-placeholder { color: #555555;}
+textarea::-webkit-input-placeholder {
+  color: #555555;
+}
+textarea:-moz-placeholder {
+  color: #555555;
+}
+textarea::-moz-placeholder {
+  color: #555555;
+}
+textarea:-ms-input-placeholder {
+  color: #555555;
+}
 
 label {
   display: block;
@@ -98,27 +115,24 @@ label {
 
 /*---------------------------------------------*/
 button {
-	outline: none !important;
-	border: none;
-	background: transparent;
+  outline: none !important;
+  border: none;
+  background: transparent;
 }
 
 button:hover {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 iframe {
-	border: none !important;
+  border: none !important;
 }
-
-
-
 
 /*//////////////////////////////////////////////////////////////////
 [ Contact ]*/
 
 .container-contact100 {
-  width: 100%;  
+  width: 100%;
   min-height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
@@ -143,7 +157,7 @@ iframe {
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(173,173,173,0.4);
+  background: rgba(173, 173, 173, 0.4);
   pointer-events: none;
 }
 
@@ -171,7 +185,6 @@ iframe {
   -ms-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
 }
 
-
 .contact100-form-symbol {
   display: -webkit-box;
   display: -webkit-flex;
@@ -183,8 +196,8 @@ iframe {
   position: absolute;
   width: 100px;
   height: 100px;
-  border: 1px solid #e7e7e7;
-  border-radius: 50%;
+  /* border: 1px solid #e7e7e7; */
+  /* border-radius: 50%; */
   background: #fff;
   top: -55px;
   left: 50%;
@@ -197,7 +210,6 @@ iframe {
 .contact100-form-symbol img {
   max-width: 49px;
 }
-
 
 /*==================================================================
 [ Form ]*/
@@ -306,7 +318,6 @@ textarea.input100 {
   transform: scale(1);
 }
 
-
 /*------------------------------------------------------------------
 [ Button ]*/
 .container-contact100-form-btn {
@@ -364,7 +375,6 @@ textarea.input100 {
     padding: 92px 15px 88px 15px;
   }
 }
-
 
 /*------------------------------------------------------------------
 [ Alert validate ]*/
@@ -432,6 +442,3 @@ textarea.input100 {
     opacity: 1;
   }
 }
-
-
-

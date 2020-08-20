@@ -1,307 +1,304 @@
 /* Basics */
 
-body{
-    margin: 0;
-    color: white;
-    text-align: center;
-    font-size: 1vw;
-    line-height: 1.5;
+body {
+  margin: 0;
+  color: white;
+  text-align: center;
+  font-size: 1vw;
+  line-height: 1.5;
 }
 
-section{
-    padding: 10vw;
+section {
+  padding: 10vw;
 }
 
-.heading{
-    font-size: 2vw;
+.heading {
+  font-size: 2vw;
 }
 
-.subheading{
-    font-size: 1.3vw;
+.subheading {
+  font-size: 1.3vw;
 }
-
-
 
 /* header */
-#NavigationBar{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    border: 1px white solid;
-    height: 4vh;
+#NavigationBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px white solid;
+  height: 4vh;
 }
-.navbar_area{
-    border: blanchedalmond 1px solid;
-    display: flex;
-    /* flex-wrap: wrap; */
-    justify-content: space-around;
-    /* or
+.navbar_area {
+  border: blanchedalmond 1px solid;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-around;
+  /* or
     justify-content: space-between; */
-    font-family: 'Taviraj', serif;
-    font-size: 1.5rem;
-    margin: auto;
-    padding: 0px 0px 0px 0px;
+  font-family: "Taviraj", serif;
+  font-size: 1.5rem;
+  margin: auto;
+  padding: 0px 0px 0px 0px;
 }
 
-#NavBarAreaLeft{
-    width: 20vw;
+#NavBarAreaLeft {
+  width: 20vw;
 }
 
-#NavBarAreaCenter{
-    width: 60vw;
+#NavBarAreaCenter {
+  width: 60vw;
 }
 
-#NavBarAreaRight{
-    width: 20vw;
+#NavBarAreaRight {
+  width: 20vw;
 }
 
 /* HeroPage */
-#HeroPage{
-    position: relative;
-    padding: 0;
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
+#HeroPage {
+  position: relative;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
 }
-    #herovideo{
-        position: relative;
-        top: 0;
-        z-index: -1;
+#herovideo {
+  position: relative;
+  top: 0;
+  z-index: -1;
 
-        height: 100%;
-        width: 177.77777778vh;
-        min-width: 100%;
-        min-height: 56.25vw;
+  height: 100%;
+  width: 177.77777778vh;
+  min-width: 100%;
+  min-height: 56.25vw;
 
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 
-        background-color: rgb(173, 173, 173);
-        filter: grayscale(100%);
-    }
+  background-color: rgb(173, 173, 173);
+  filter: grayscale(100%);
+}
 
-    #herocontent{
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-    }
+#herocontent {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
 
-    #herocontent-1{
-        font-family: 'Taviraj', serif;
-        font-size: 1.5vw;
-        -webkit-text-stroke: 1px black;
-    }
+#herocontent-1 {
+  font-family: "Taviraj", serif;
+  font-size: 1.5vw;
+  -webkit-text-stroke: 1px black;
+}
 
-    #herocontent-2{
-        font-family: 'Taviraj', serif;
-        font-size: 5vw;
-        -webkit-text-stroke: 1px black;
-    }
-
+#herocontent-2 {
+  font-family: "Taviraj", serif;
+  font-size: 5vw;
+  -webkit-text-stroke: 1px black;
+}
 
 /* WhyBJJ */
-#WhyBJJ{
-    background-color: rgb(25, 25, 25);
-    font-family: 'Roboto Mono', monospace;
+#WhyBJJ {
+  background-color: rgb(25, 25, 25);
+  font-family: "Roboto Mono", monospace;
 }
-    #whybjjheading{
-        margin-bottom: 1vw;
-        
-    }
+#whybjjheading {
+  margin-bottom: 1vw;
+}
 
-    #whybjjcontent{
-        display: flex;
-        justify-content: center;
-        
-    }
-    
-    .whybjjitem{
-        margin: 0.5vw;
-        width: 15vw;
-        
-        }
-        .WhybjjIcon{
-            filter: invert(1);
-            margin: auto;
-            height: 6vw;
-            width: 6vw;
-            background-size: cover;
-            background-position: center;
-        }
-            .whybjjitemsubheadung{
-                margin-bottom: 0.1vw;
-            }
-        
-        #whybjjicon-1{
-            background-image: url(../images/icons/Icon1.png);
-        }
-        #whybjjicon-2{
-            background-image: url(../images/icons/Icon2.png);
-        }
-        #whybjjicon-3{
-            background-image: url(../images/icons/Icon3.png);
-        }
-        #whybjjicon-4{
-            background-image: url(../images/icons/Icon4.png);
-        }
-        #whybjjicon-5{
-            background-image: url(../images/icons/Icon5.png);
-        }
+#whybjjcontent {
+  display: flex;
+  justify-content: center;
+}
+
+.whybjjitem {
+  margin: 0.5vw;
+  width: 15vw;
+}
+.WhybjjIcon {
+  filter: invert(1);
+  margin: auto;
+  height: 6vw;
+  width: 6vw;
+  background-size: cover;
+  background-position: center;
+}
+.whybjjitemsubheadung {
+  margin-bottom: 0.1vw;
+}
+
+#whybjjicon-1 {
+  background-image: url(../images/icons/Icon1.png);
+}
+#whybjjicon-2 {
+  background-image: url(../images/icons/Icon2.png);
+}
+#whybjjicon-3 {
+  background-image: url(../images/icons/Icon3.png);
+}
+#whybjjicon-4 {
+  background-image: url(../images/icons/Icon4.png);
+}
+#whybjjicon-5 {
+  background-image: url(../images/icons/Icon5.png);
+}
 /* Parallax1 */
-#Parallax1{
-    background-image: url(../images/parallax1.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
+#Parallax1 {
+  background-image: url(../images/parallax1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }
 
 /* Schedule */
-#Schedule{
-    background-color: rgb(25, 25, 25);
-    
-    font-family: 'Roboto Mono', monospace;
+#Schedule {
+  background-color: rgb(25, 25, 25);
+
+  font-family: "Roboto Mono", monospace;
 }
-    #scheduleheading{
-        margin-bottom: 1vw;
-    }
+#scheduleheading {
+  margin-bottom: 1vw;
+}
 
-    .schedulerow{
-        display: flex;
-        justify-content: center;
-    }
+.schedulerow {
+  display: flex;
+  justify-content: center;
+}
 
-        .schedulecontent{
-            margin: 1vw;
-            width: 10vw;
-        }
+.schedulecontent {
+  margin: 1vw;
+  width: 10vw;
+}
 
 /* Trainers */
-#Our_Trainer{
-    font-family: 'Roboto Mono', monospace;
-    background-color: rgb(25, 25, 25);
-    padding-top: 1vw;
-    padding-bottom: 0.3vw;
+#Our_Trainer {
+  font-family: "Roboto Mono", monospace;
+  background-color: rgb(25, 25, 25);
+  padding-top: 1vw;
+  padding-bottom: 0.3vw;
 }
 
-#Trainers{
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-    background-color: rgb(25, 25, 25);
+#Trainers {
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(25, 25, 25);
 }
-    .trainer{
-        height: 50vw;
-        width: 32vw;
+.trainer {
+  height: 50vw;
+  width: 32vw;
+}
+.TrinerName {
+  font-family: "Roboto Mono", monospace;
+}
+#trainer1 {
+  background-image: url(../images/Trainers/trainer1.jpg);
+  background-size: cover;
+  background-position: center;
+}
 
-    }
-    .TrinerName{
-        font-family: 'Roboto Mono', monospace;
-    }
-    #trainer1{
-        background-image: url(../images/Trainers/trainer1.jpg);
-        background-size: cover;
-        background-position: center;
-        
-    }
+#trainer2 {
+  background-image: url(../images/Trainers/trainer2.png);
+  background-size: cover;
+  background-position: center;
 
-    #trainer2{
-        background-image: url(../images/Trainers/trainer2.png);
-        background-size: cover;
-        background-position: center;
-        
-        width: 33.4vw;
-    }
-    #trainer3{
-        background-image: url(../images/Trainers/trainer3.png);
-        background-size: cover;
-        background-position: center;
-        
-    }
+  width: 33.4vw;
+}
+#trainer3 {
+  background-image: url(../images/Trainers/trainer3.png);
+  background-size: cover;
+  background-position: center;
+}
 
-    .trainer:hover{
-        filter: grayscale(100%);
-    }
+.trainer:hover {
+  filter: grayscale(100%);
+}
 
-        .trainerinfocontainer{
-            background-color: rgba(31, 31, 31, 0.5);
-            height: 50vw;
-            opacity: 0;
-            transition-duration: 0.3s;
-        }
+.trainerinfocontainer {
+  background-color: rgba(31, 31, 31, 0.5);
+  height: 50vw;
+  opacity: 0;
+  transition-duration: 0.3s;
+}
 
-        .trainerinfocontainer:hover{
-            opacity: 1;
-        }
+.trainerinfocontainer:hover {
+  opacity: 1;
+}
 
-            .tranerinfocontent{
-                position: relative;
-                left: 50%;
-                top: 50%;
-                transform: translate(-50%, -50%);
-            }
+.tranerinfocontent {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
 
-            
 /* Contact Form */
-#contact_form{
-    background-color: rgb(25, 25, 25);
+#contact_form {
+  background-color: rgb(25, 25, 25);
+  padding: 50px 50px 0px 50px;
 }
 /* Parallax2 */
-#Parallax2{
-    background-image: url(../images/parallax2.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
+#Parallax2 {
+  background-image: url(../images/parallax2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }
 
 /* ContactUs */
-#ContactUs{
-    background-color: rgb(25, 25, 25);;
-    display: flex;
-    
-    
-
+#ContactUs {
+  background-color: rgb(25, 25, 25);
+  display: flex;
+  padding: 2vw 10vw 10vw 10vw;
 }
-    .contactcontainer{
-        
-        border: white 1px solid;
-        height: 30vw;
-        width: 39vw;
-        display: flex;
-        align-items: center;
-    }
-    #map_frame{
-        height: 29vw;
-        width: 38vw;
-        margin: auto;
 
-    }
-    iframe:hover{
-        filter: grayscale(0%);
-    }
-        #contactcontent{
-            border: white 1px solid;
-            margin: auto;
-            /* position: relative; */
-            /* left: 50%; */
-            /* top: 50%; */
-            /* transform: translate(-50%, -50%); */
-        }
+#contact-header {
+  font-size: 26px;
+}
+#contact-info {
+  border: 1px solid white;
+  height: 20vw;
+  width: 62vw;
+  margin-left: 150px;
+}
+.contactcontainer {
+  /* border: white 1px solid; */
+  height: 30vw;
+  width: 40vw;
+  display: flex;
+  /* align-items: center; */
+}
+#map_frame {
+  height: 25vw;
+  width: 39vw;
+  margin-left: 110px;
+  margin-top: 10px;
+}
+iframe:hover {
+  filter: grayscale(0%);
+}
+#contactcontent {
+  /* border: white 1px solid; */
+  margin-top: 10px;
+  margin-left: 65px;
+  /* position: relative; */
+  /* left: 50%; */
+  /* top: 50%; */
+  /* transform: translate(-50%, -50%); */
+}
 
-    /* #map{
+/* #map{
         background-color: red;
         border: black 2px solid;
     } */
 
-
-
 /* alert */
-#alert{
-    padding: 5px;
-    position: fixed;
-    left: 2vw;
-    bottom: 2vw;
-    background-color: red;
+#alert {
+  padding: 5px;
+  position: fixed;
+  left: 2vw;
+  bottom: 2vw;
+  background-color: red;
 }

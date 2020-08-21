@@ -155,7 +155,6 @@ section {
 /* Schedule */
 #Schedule {
   background-color: rgb(25, 25, 25);
-
   font-family: "Roboto Mono", monospace;
 }
 #scheduleheading {
@@ -234,11 +233,6 @@ section {
   transform: translate(-50%, -50%);
 }
 
-/* Contact Form */
-#contact_form {
-  background-color: rgb(25, 25, 25);
-  padding: 50px 50px 0px 50px;
-}
 /* Parallax2 */
 #Parallax2 {
   background-image: url(../images/parallax2.jpg);
@@ -247,38 +241,59 @@ section {
   background-position: center;
 }
 
+
+
+/* Contact Form */
+#contact_form {
+  background-color: rgb(25, 25, 25);
+  padding-top: 1vw;
+  padding-bottom: 2vw;
+}
+
+
 /* ContactUs */
 #ContactUs {
   background-color: rgb(25, 25, 25);
   display: flex;
-  padding: 2vw 10vw 10vw 10vw;
+  justify-content: space-around;
 }
 
 #contact-header {
-  font-size: 26px;
+  font-family: "Roboto Mono", monospace;
+  background-color: rgb(25, 25, 25);
+  padding-top: 1vw;
+  padding-bottom: 0.3vw;
 }
+/* #full_width{
+  border: green 1px solid;
+} */
+
 #contact-info {
-  border: 1px solid white;
+  /* border: 1px solid white; */
   height: 20vw;
-  width: 62vw;
-  margin-left: 150px;
+  /* width: 80vw; */
 }
 .contactcontainer {
   /* border: white 1px solid; */
   height: 30vw;
-  width: 40vw;
-  display: flex;
-  /* align-items: center; */
+  width: 39vw;
+  /* display: flex; */
+  padding: 1rem 0 1rem 0;
 }
+
+
+.contact_content{
+  height: 28vw;
+  width: 100%;
+  padding: 0.5vw 0vw 0.5vw 0vw;
+}
+
 #map_frame {
   height: 25vw;
   width: 39vw;
-  margin-left: 110px;
-  margin-top: 10px;
+  
 }
-iframe:hover {
-  filter: grayscale(0%);
-}
+
 #contactcontent {
   /* border: white 1px solid; */
   margin-top: 10px;
@@ -289,11 +304,58 @@ iframe:hover {
   /* transform: translate(-50%, -50%); */
 }
 
-/* #map{
-        background-color: red;
-        border: black 2px solid;
-    } */
+.form_area{
+  width: 30vw;
+  margin: auto;
+}
+.map{
+        /* background-color: red; */
+        height: 30vw;
+        width: 30vw;
+        /* border: black 2px solid; */
+    }
 
+#SignUPArea{
+  /* border: white 1px solid; */
+  height: 30vw;
+  width: 40vw;
+  display: block;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.Signup_form{
+  /* border: white 1px solid; */
+  font-family: "Roboto Mono", monospace;
+  padding: 0 0 0 0;
+}
+
+#namephone{
+  display: flex;
+  justify-content: space-between;
+}
+
+#MessageArea{
+  display: flex;
+  
+}
+
+.namephonefield{
+  height: 2vw;
+  width: 20vw;
+  /* margin: auto; */
+}
+
+/* Copy rights */
+#line{
+  border:white 0.1px solid;
+  width: 90vw;
+  margin: auto;
+}
+
+#copyrights{
+  background-color: rgb(25, 25, 25);
+  font-family: "Roboto Mono", monospace;
+}
 /* alert */
 #alert {
   padding: 5px;

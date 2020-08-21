@@ -25,11 +25,11 @@ section {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  border: 1px white solid;
+  /* border: 1px white solid; */
   height: 4vh;
 }
 .navbar_area {
-  border: blanchedalmond 1px solid;
+  /* border: blanchedalmond 1px solid; */
   display: flex;
   /* flex-wrap: wrap; */
   justify-content: space-around;
@@ -270,11 +270,12 @@ section {
 
 #contact-info {
   /* border: 1px solid white; */
-  height: 20vw;
+  /* height: 10vw; */
+  padding-bottom: 2vw;
   /* width: 80vw; */
 }
 .contactcontainer {
-  /* border: white 1px solid; */
+  border: white 1px solid;
   height: 30vw;
   width: 39vw;
   /* display: flex; */
@@ -292,16 +293,6 @@ section {
   height: 25vw;
   width: 39vw;
   
-}
-
-#contactcontent {
-  /* border: white 1px solid; */
-  margin-top: 10px;
-  margin-left: 65px;
-  /* position: relative; */
-  /* left: 50%; */
-  /* top: 50%; */
-  /* transform: translate(-50%, -50%); */
 }
 
 .form_area{
@@ -323,6 +314,10 @@ section {
   padding: 1rem 1rem 1rem 1rem;
 }
 
+form{
+  height: 8vw;
+  /* border: yellow 1px solid; */
+}
 .Signup_form{
   /* border: white 1px solid; */
   font-family: "Roboto Mono", monospace;
@@ -343,6 +338,55 @@ section {
   height: 2vw;
   width: 20vw;
   /* margin: auto; */
+}
+.contact_area_line{
+  border:white 0.1px solid;
+  width: 30vw;
+  margin: auto;
+}
+/* Sponsors/Partner */
+#partner_area{
+  /* border: green solid 1px; */
+  height: 17vw;
+}
+
+#social_links{
+  /* border: red solid 1px; */
+  height: 3vw;
+  display: flex;
+}
+.socialIcon{
+  /* border: wheat 1px solid; */
+  height: 3vw;  
+  width: 3vw;
+  margin: auto;
+  background-size: cover;
+  background-position: center;
+}
+.socialEmpty{
+  /* border: pink 1px solid; */
+  width: 10vw;
+}
+#SocialCenter{
+  width: 20vw;
+  display: flex;
+  justify-content: space-around;
+}
+/* Icons */
+#fbIcon{
+  background-image: url(../images/Social_Media_Icons/icons8-facebook-50.png);
+}
+
+#YTIcon{
+  background-image: url(../images/Social_Media_Icons/icons8-youtube-squared-50.png);
+}
+
+#VKIcon{
+  background-image: url(../images/Social_Media_Icons/icons8-vk.com-50.png);
+}
+
+#InstIcon{
+  background-image: url(../images/Social_Media_Icons/icons8-instagram-50.png);
 }
 
 /* Copy rights */

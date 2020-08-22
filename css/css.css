@@ -20,6 +20,10 @@ section {
   font-size: 1.3vw;
 }
 
+.font{
+  font-family: "Roboto Mono", monospace;
+}
+
 /* header */
 #NavigationBar {
   display: flex;
@@ -268,12 +272,6 @@ section {
   border: green 1px solid;
 } */
 
-#contact-info {
-  /* border: 1px solid white; */
-  /* height: 10vw; */
-  padding-bottom: 2vw;
-  /* width: 80vw; */
-}
 .contactcontainer {
   border: white 1px solid;
   height: 30vw;
@@ -389,6 +387,46 @@ form{
   background-image: url(../images/Social_Media_Icons/icons8-instagram-50.png);
 }
 
+/* Sponsors/partner */
+#sponsorArea{
+  border: 1px solid white;
+  margin-top:1vw;
+}
+
+#contact-info {
+  border: 1px solid white;
+  height: 10vw;
+  display: flex;
+
+}
+
+.sponsorIcon{
+  height: 8vw;  
+  width: 8vw;
+  margin: auto;
+  background-size: cover;
+  background-position: center;
+}
+
+#Sposor-1{
+  background-image: url(../images/Sponsers/bjf.png);
+}
+
+#Sposor-2{
+  background-image: url(../images/Sponsers/igwt.jpeg);
+}
+
+#Sposor-3{
+  background-image: url(../images/Sponsers/KCA.png);
+}
+
+#Sposor-4{
+  background-image: url(../images/Sponsers/litefit.png);
+}
+
+#Sposor-5{
+
+}
 /* Copy rights */
 #line{
   border:white 0.1px solid;

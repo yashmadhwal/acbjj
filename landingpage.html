@@ -5,40 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/css.css">
-
+    <script src="js/js.js" type="text/javascript"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Taviraj:wght@600&display=swap" rel="stylesheet">
-
-    <!-- Social Media Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
     <script src="https://api-maps.yandex.ru/1.1/index.xml" type="text/javascript"></script>
     <title>ACBJJ</title>
 </head>
 
-<body>
+<body onscroll="scrolled()">
+
+    <!-- Navigation Here -->
+    <header id='NavigationBar'>
+        
+        <a href='#' class="navDecor" id="MenuItem-1">Зачем</a>
+        <a href='#' class="navDecor" id="MenuItem-2">Расписание</a>
+        <a href='#' class="navDecor" id="menulogo"><img id="MenuItem-3image" src="images/logo.png"></a>
+        <a href='#' class="navDecor" id="MenuItem-4">Тренеры</a>
+        <a href='#' class="navDecor" id="MenuItem-5">Контакты</a>
+
+    </header>
 
 
     <!-- Section: HeroPage -->
 
     <section id="HeroPage">
-        <!-- Navigation Here -->
-        <header id='NavigationBar'>
-            <div id='NavBarAreaLeft' class="navbar_area"></div>
-
-            <div id='NavBarAreaCenter' class="navbar_area">
-                <!-- 5 Boxes -->
-                <a href='#' class="navDecor font" id="MenuItem-1">Зачем</a>
-                <a href='#' class="navDecor font" id="MenuItem-2">Расписание</a>
-                <a href='#' class="navDecor font" id="MenuItem-3"></a>
-                <a href='#' class="navDecor font" id="MenuItem-4">Тренеры</a>
-                <a href='#' class="navDecor font" id="MenuItem-5">Контакты</a>
-            </div>
-            <div id='NavBarAreaRight' class="navbar_area bgcolor"></div>
-        </header>
 
         <video autoplay loop id="herovideo">
-            <!-- use only 16:9 video -->
             <source src="images/videoplayback_1.mp4" type="video/mp4">
         </video>
 
@@ -134,39 +127,33 @@
     </section>
 
     <!-- Section: Trainers -->
-    <div id="Our_Trainer" class='heading bgcolor'>Наши Тренеры</div>
     <section id="Trainers" class="bgcolor">
-        <div id="trainer1" class="trainer">
-            <div class="trainerinfocontainer">
-                <div class="tranerinfocontent">
-                    <div class="TrinerName">Александр "Шанс" Фамилия</div>
-                    <div class="TrainerData">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore deleniti
-                        mollitia numquam, quo, vitae aliquid voluptatem provident asperiores assumenda molestiae illo
-                        soluta illum voluptate. Saepe enim accusamus laborum ab eligendi?</div>
+
+        <div id="trainersheading" class="heading">Расписание занятий</div>
+
+        <div id="trainerscontent">
+            <div id="trainer1" class="trainer">
+                <div class="trainerinfocontainer">
+                        <div class="TrinerName subheading">Александр "Шанс" Фамилия</div>
+                        <div class="TrainerData">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore deleniti
+                            mollitia numquam, quo, vitae aliquid voluptatem provident asperiores assumenda molestiae illo
+                            soluta illum voluptate. Saepe enim accusamus laborum ab eligendi?</div>
                 </div>
             </div>
-        </div>
-        <div id="trainer2" class="trainer">
-            <div class="trainerinfocontainer">
-                <div class="tranerinfocontent">
-                    <div class="TrinerName">Александр "Граф" Фамилия</div>
-                    <div class="TrainerData">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore deleniti
-                        mollitia numquam, quo, vitae aliquid voluptatem provident asperiores assumenda molestiae illo
-                        soluta illum voluptate. Saepe enim accusamus laborum ab eligendi?</div>
+            <div id="trainer2" class="trainer">
+                <div class="trainerinfocontainer">
+                        <div class="TrinerName subheading">Александр "Граф" Фамилия</div>
+                        <div class="TrainerData">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore deleniti
+                            mollitia numquam, quo, vitae aliquid voluptatem provident asperiores assumenda molestiae illo
+                            soluta illum voluptate. Saepe enim accusamus laborum ab eligendi?</div>
                 </div>
             </div>
-        </div>
-        <div id="trainer3" class="trainer">
-            <div class="trainerinfocontainer">
-                <div class="tranerinfocontent">
-                    <div class="TrinerName">Данила "Даня" Хохлов</div>
-                    <div class="TrainerData">
-                        <ul>
-                            <li>Синий Пояс</li>
-                            <li>Самбо</li>
-                            <li>Чемпион по Дзюдо</li>
-                        </ul>
-                    </div>
+            <div id="trainer3" class="trainer">
+                <div class="trainerinfocontainer">
+                        <div class="TrinerName subheading">Данила "Даня" Хохлов</div>
+                        <div class="TrainerData">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore deleniti
+                            mollitia numquam, quo, vitae aliquid voluptatem provident asperiores assumenda molestiae illo
+                            soluta illum voluptate. Saepe enim accusamus laborum ab eligendi?</div>
                 </div>
             </div>
         </div>

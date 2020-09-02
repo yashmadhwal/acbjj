@@ -28,6 +28,10 @@ section {
 }
 
 /* header */
+/* header{
+  position: fixed;
+  z-index: 10;
+} */
 
 #NavigationBar {
   display: flex;
@@ -456,9 +460,15 @@ form{
 }
 /* alert */
 #alert {
-  padding: 5px;
+  padding: 20px 100px 20px 100px;
+  border-radius: 50px;
   position: fixed;
-  left: 2vw;
+  left: 3vw;
   bottom: 2vw;
   background-color: red;
+  color: white
+}
+
+a:hover{
+ font: bold;
 }

@@ -453,3 +453,94 @@ form{
 a:hover{
  font: bold;
 }
+
+/* Pop Up Call Back */
+.temp{
+	border: 1px solid white;
+}
+
+
+.PopCallBack{
+	background: rgba(0, 0, 0, 0.6);
+	width: 100vw;
+	height: 100vh;
+	/* position:fixed will keep it at center for any view page */
+	position: fixed;
+	top: 0;
+	justify-content: center;
+	align-items: center;
+	z-index: 16;
+	display:none;
+}
+
+#pop_content{
+	border: white 1px solid;
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 20vw;
+	height: 22vw;
+	border-radius: 1vw;
+	position: relative;
+	display: block;
+}
+
+#OrderCallText{
+	
+}
+
+/* Form Input area */
+
+.callBackFont{
+	font-size: 1.5vw
+}
+
+#form_Callback{
+	display: block;
+	height: 12vw;
+}
+
+.callbackform{
+	text-align: center;
+}
+
+.NamePhoneArea{
+	height: 6vw;
+}
+
+.NamePhone{
+	text-align: left;
+	padding-left: 1vw;
+	
+} 
+
+.inputCallBack{
+	box-sizing: border-box;
+	margin:auto;
+	width: 18vw;
+	margin-top: 0.25vw;
+	margin-bottom: 0.25vw;
+	height: 2.5vw; 
+	padding-left: 1vw ;
+}
+
+/* data processing */
+#OrderCallDataProcess{
+	padding-top: 0.5vw;
+	height: 2vw;
+	padding-bottom: 0.5vw;
+	
+}
+
+
+#privacy{
+	vertical-align: middle;
+	font-size: 1vw;
+}
+
+#send{
+	/* border: 1px solid green; */
+	margin: auto;
+	width: 75%;
+	height: 3vw;
+	font-size: 2vw;
+	/* border-radius: 1px; */
+}

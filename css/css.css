@@ -30,6 +30,21 @@ section {
 	background-color: rgb(25, 25, 25);
 }
 
+/* header */
+/* header{
+  position: fixed;
+  z-index: 10;
+} */
+
+#NavigationBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: 1px white solid;
+  height: 4vh;
+  margin: auto;
+  z-index: 5 ;
+}
 
 
 
@@ -426,9 +441,15 @@ form{
 
 /* alert */
 #alert {
-	padding: 5px;
-	position: fixed;
-	left: 2vw;
-	bottom: 2vw;
-	background-color: red;
+  padding: 20px 100px 20px 100px;
+  border-radius: 50px;
+  position: fixed;
+  left: 3vw;
+  bottom: 2vw;
+  background-color: red;
+  color: white
+}
+
+a:hover{
+ font: bold;
 }

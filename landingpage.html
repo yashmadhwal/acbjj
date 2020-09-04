@@ -236,13 +236,15 @@
                 <div id="Sponsor-inforamtion" class='heading font'>Партнеры</div>
                 <div id="sponsor-info">
                     <!-- 4 places for sponsors -->
+                    <div class="sponsorIcon"></div>
                     <a class="sponsorIcon" id="Sposor-1"></a>
                     <div class="sponsorIcon" id="Sposor-2"></div>
                     <div class="sponsorIcon" id="Sposor-3"></div>
-                    <div class="sponsorIcon" id="Sposor-4"><img class="sponsorIcon" src="../images/Sponsers/litefit.png"
+                    <!-- <div class="sponsorIcon" id="Sposor-4"><img class="sponsorIcon" src="../images/Sponsers/litefit.png"
                             alt=""></div>
                     <div class="sponsorIcon" id="Sposor-5"><img class="sponsorIcon" src="../images/Sponsers/RJJR.webp"
-                            alt=""></div>
+                            alt=""></div> -->
+                    <div class="sponsorIcon"></div>
                 </div>
             </div>
 
@@ -267,7 +269,7 @@
             <!-- order call text -->
             <div id="OrderCallText" class="callBackFont">
                 Заказать обратный звонок
-                <span><a href="">x</a></span>
+                <span><button href="" id='cross'>x</button></span>
             </div>
             <!-- Form -->
             <div id="form_Callback" class="callbackform callBackFont temp">
@@ -306,7 +308,9 @@
 
 <script>
     document.getElementById("alert").addEventListener("click", function(){
-    document.querySelector('.PopCallBack').style.display='flex';
-})
+    document.querySelector('.PopCallBack').style.display='flex';})
+
+    document.getElementById("cross").addEventListener("click", function(){
+    document.querySelector('.PopCallBack').style.display='none';})
 </script>
 </html>

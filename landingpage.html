@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/css.css">
-    <script src="/js/js.js" type="text/javascript"></script>
+    <script src="js/js.js" type="text/javascript"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Taviraj:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -14,6 +14,9 @@
 </head>
 
 <body onscroll="scrolled()">
+
+
+
 
     <!-- Navigation Here -->
     <header id='NavigationBar'>
@@ -27,8 +30,9 @@
     </header>
 
 
-    <!-- Section: HeroPage -->
 
+
+    <!-- Section: HeroPage -->
     <section id="HeroPage">
 
         <video autoplay loop id="herovideo">
@@ -41,6 +45,9 @@
         </div>
 
     </section>
+
+
+
 
     <!-- Section: WhyBJJ -->
     <section id="WhyBJJ" class="bgcolor">
@@ -84,9 +91,14 @@
     </section>
 
 
+
+
     <!-- Section: Parallax1 -->
     <section id="Parallax1">
     </section>
+
+
+
 
     <!-- Section: Schedule -->
     <section id="Schedule" class="bgcolor">
@@ -122,9 +134,15 @@
 
     </section>
 
+
+
+
     <!-- Section: Parallax2 -->
     <section id="Parallax2">
     </section>
+
+
+
 
     <!-- Section: Trainers -->
     <section id="Trainers" class="bgcolor">
@@ -164,101 +182,68 @@
 
     <!-- Section: Contact Us -->
     <section id='contact_form' class="bgcolor">
-        <!-- Information Area for ACBJJ -->
-        <div id="contact-header" class='heading'>
-            CONTACT US
-        </div>
-        <div id="full_width">
 
+        <div id="contactheading" class="heading">Расписание занятий</div>
 
-            <!--Host_Contact Information -->
             <div id="ContactUs">
-                <!-- Maps -->
+                
                 <div class="contactcontainer">
-                    <div class="Signup_form">
-                        Как добраться?
-                    </div>
-
-                    <iframe class='contact_content'
-                        src="https://yandex.ru/map-widget/v1/?um=constructor%3A7d69c227c2dd77bc8608508dccb7de6377d99a24c81204c87f51b280adef272a&amp;source=constructor"
-                        frameborder="0"></iframe>
-
+                    Как добраться?
+                    <iframe class='contact_content' src="https://yandex.ru/map-widget/v1/?um=constructor%3A7d69c227c2dd77bc8608508dccb7de6377d99a24c81204c87f51b280adef272a&amp;source=constructor" frameborder="0"></iframe>
                 </div>
 
-                <!-- Form -->
                 <div class="contactcontainer">
-                    <div class="Signup_form">
-                        Запишитесь на недельное обучение
-                    </div>
+                    
+                    Запишитесь на недельное обучение
 
                     <div class='contact_content'>
+                        
                         <form>
-                            <div id="namephone">
-                                <input class='namephonefield' type="text" name="name" placeholder="Name">
-                                <input class='namephonefield' type="text" name="Phone Number"
-                                    placeholder="Phone Number">
-                            </div>
-
-                            <div id="MessageArea">
-                                <textarea name="message" placeholder="Write Us A Message"
-                                    style="width: 100%;"></textarea>
-                            </div>
-
-                            <div class="container-contact100-form-btn">
-                                <button class="contact100-form-btn">
-                                    <centre>Send</centre>
-                                </button>
-                            </div>
+                            <input class="formfield" type="text" name="name" placeholder="Name">
+                            <input class="formfield" type="text" name="phone" placeholder="Phone Number">
+                            <input class="formfield" type="text" name="message" placeholder="Write Us A Message">
+                            <button id="formsendbutton">Send</button>
                         </form>
 
-                        <!-- Partners -->
-                        <div class="contact_area_line"></div>
-                        <div id="partner_area">
-                            <div id="Contact_main_inforamation">Contact</div>
-                        </div>
-                        <div class="contact_area_line"></div>
                         <div id="social_links">
-                            <div class="socialEmpty"></div>
-                            <div id="SocialCenter">
-                                <div class='socialIcon' id="fbIcon"></div>
-                                <div class='socialIcon' id="YTIcon"></div>
-                                <div class='socialIcon' id="VKIcon"></div>
-                                <div class='socialIcon' id="InstIcon"></div>
-                            </div>
-                            <div class="socialEmpty"></div>
+                            <div class='socialIcon' id="fbIcon"></div>
+                            <div class='socialIcon' id="YTIcon"></div>
+                            <div class='socialIcon' id="VKIcon"></div>
+                            <div class='socialIcon' id="InstIcon"></div>
                         </div>
+
+                        Phone number: <a href="tel:00918971258254">8971258254</a>
+                        <br>
+                        Mail: <a href="mailto:tanishk.sharma@live.com">tanishk.sharma@live.com</a>
+
                     </div>
-                </div>
-            </div>
-
-
-            <div id="sponsorArea">
-                <div id="Sponsor-inforamtion" class='heading font'>Партнеры</div>
-                <div id="sponsor-info">
-                    <!-- 4 places for sponsors -->
-                    <div class="sponsorIcon"></div>
-                    <a class="sponsorIcon" id="Sposor-1"></a>
-                    <div class="sponsorIcon" id="Sposor-2"></div>
-                    <div class="sponsorIcon" id="Sposor-3"></div>
-                    <!-- <div class="sponsorIcon" id="Sposor-4"><img class="sponsorIcon" src="../images/Sponsers/litefit.png"
-                            alt=""></div>
-                    <div class="sponsorIcon" id="Sposor-5"><img class="sponsorIcon" src="../images/Sponsers/RJJR.webp"
-                            alt=""></div> -->
-                    <div class="sponsorIcon"></div>
                 </div>
             </div>
 
     </section>
+
+
+
+
+    <section id="sponsorArea" class="bgcolor">
+        <div id="sponsorheading" class="heading">Партнеры</div>
+        <div id="sponsor-info">
+            <a class="sponsorIcon" id="Sposor-1"></a>
+            <a class="sponsorIcon" id="Sposor-2"></a>
+            <a class="sponsorIcon" id="Sposor-3"></a>
+            <a class="sponsorIcon" id="Sposor-4"></a>
+        </div>
+    </section>
+
+
     <!-- Section copyrights -->
     <div id="copyrights" class="bgcolor">
-        <div id="line">
-        </div>
         © 2020 Alexander Chance Academy BJJ, Russia, Inc. All Rights Reserved.
     </div>
 
     <!-- Section: Alert -->
     <div>
-        <a href='#' id="alert">
+        <a id="alert">
             Call Me Now
         </a>
     </div>

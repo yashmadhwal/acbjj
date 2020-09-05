@@ -7,6 +7,7 @@ body {
 	font-size: 1vw;
 	font-family: "Roboto";
 	line-height: 1.5;
+	background-color: rgb(25, 25, 25);
 }
 
 a{
@@ -30,21 +31,6 @@ section {
 	background-color: rgb(25, 25, 25);
 }
 
-/* header */
-/* header{
-  position: fixed;
-  z-index: 10;
-} */
-
-#NavigationBar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  border-bottom: 1px white solid;
-  height: 4vh;
-  margin: auto;
-  z-index: 5 ;
-}
 
 
 
@@ -261,191 +247,108 @@ section {
 /* Contact Form */
 
 #contact_form {
-	padding-top: 1vw;
-	padding-bottom: 2vw;
+	padding-top: 0;
 }
-
-
-
-
-/* ContactUs */
-
-#ContactUs {
-	display: flex;
-	justify-content: space-around;
-}
-
-#contact-header {
-	font-family: "Roboto Mono", monospace;
-	padding-top: 1vw;
-	padding-bottom: 0.3vw;
-}
-
-.contactcontainer {
-	border: white 1px solid;
-	height: 30vw;
-	width: 39vw;
-	padding: 1rem 0 1rem 0;
-}
-
-
-.contact_content{
-	height: 28vw;
-	width: 100%;
-	padding: 0.5vw 0vw 0.5vw 0vw;
-}
-
-#map_frame {
-	height: 25vw;
-	width: 39vw;
-	
-}
-
-.form_area{
-	width: 30vw;
-	margin: auto;
-}
-.map{
-				height: 30vw;
-				width: 30vw;
+	#contactheading {
+		margin-bottom: 3vw;
+	}
+		#ContactUs {
+			display: flex;
+			justify-content: space-around;
 		}
+			.contactcontainer {
+				height: 25vw;
+				width: 30vw;
+			}
+				.contact_content{
+					margin-top: 1vw;
+					width: 100%;
+					height: 22vw;
+				}
+					.formfield{
+						display: block;
+						margin: auto;
+						margin-bottom: 1vw;
+						height: 1vw;
+						padding: 0.5vw;
+						border-radius: 0.2vw;
+						width: 20vw;
+					}
+					#formsendbutton{
+						padding: 0;
+						border: none;
+						height: 2vw;
+						width: 4vw;
+						line-height: 2vw;
+						border-radius: 0.2vw;
+					}
+					#social_links{
+						padding-top: 2vw;
+						padding-bottom: 2vw;
+						display: flex;
+						margin: auto;
+						width: 15vw;
+						justify-content: space-evenly;
+					}
+						.socialIcon{
+							height: 2vw;  
+							width: 2vw;
+							background-size: cover;
+							background-position: center;
+						}
+							#fbIcon{background-image: url(../images/Social_Media_Icons/icons8-facebook-50.png);}
+							#YTIcon{background-image: url(../images/Social_Media_Icons/icons8-youtube-squared-50.png);}
+							#VKIcon{background-image: url(../images/Social_Media_Icons/icons8-vk.com-50.png);}
+							#InstIcon{background-image: url(../images/Social_Media_Icons/icons8-instagram-50.png);}
 
-#SignUPArea{
-	height: 30vw;
-	width: 40vw;
-	display: block;
-	padding: 1rem 1rem 1rem 1rem;
-}
 
-form{
-	height: 8vw;
-}
-.Signup_form{
-	font-family: "Roboto Mono", monospace;
-	padding: 0 0 0 0;
-}
 
-#namephone{
-	display: flex;
-	justify-content: space-between;
-}
 
-#MessageArea{
-	display: flex;
+#sponsorArea {
+	padding-top: 0;
+}
+	#sponsorheading {
+		margin-bottom: 3vw;
+	}
+	#sponsor-info {
+		display: flex;
+		justify-content: space-evenly;
+	}
+		.sponsorIcon{
+			display: block;
+			height: 6vw;  
+			width: 6vw;
+			margin: auto;
+			background-size: cover;
+			background-position: center;
+		}
+			#Sposor-1{background-image: url(../images/Sponsers/bjf.png);}
+			#Sposor-2{background-image: url(../images/Sponsers/igwt.jpeg);}
+			#Sposor-3{background-image: url(../images/Sponsers/KCA.png);}
+			#Sposor-4{background-image: url(../images/Sponsers/litefit.png);}
+			#Sposor-5{background-image: url(../images/Sponsers/RJJR.webp);}
+
+
 	
-}
-
-.namephonefield{
-	height: 2vw;
-	width: 20vw;
-}
-.contact_area_line{
-	border:white 0.1px solid;
-	width: 30vw;
-	margin: auto;
-}
-
-
-/* Sponsors/Partner */
-#partner_area{
-	height: 17vw;
-}
-
-#social_links{
-	height: 3vw;
-	display: flex;
-}
-.socialIcon{
-	height: 3vw;  
-	width: 3vw;
-	margin: auto;
-	background-size: cover;
-	background-position: center;
-}
-.socialEmpty{
-	width: 10vw;
-}
-#SocialCenter{
-	width: 20vw;
-	display: flex;
-	justify-content: space-around;
-}
-/* Icons */
-#fbIcon{
-	background-image: url(../images/Social_Media_Icons/icons8-facebook-50.png);
-}
-
-#YTIcon{
-	background-image: url(../images/Social_Media_Icons/icons8-youtube-squared-50.png);
-}
-
-#VKIcon{
-	background-image: url(../images/Social_Media_Icons/icons8-vk.com-50.png);
-}
-
-#InstIcon{
-	background-image: url(../images/Social_Media_Icons/icons8-instagram-50.png);
-}
-
-/* Sponsors/partner */
-#sponsorArea{
-	/* border: 1px solid white; */
-	margin-top:1vw;
-}
-
-#sponsor-info {
-	/* border: 1px solid white; */
-	height: 10vw;
-	display: flex;
-
-}
-
-.sponsorIcon{
-	height: 6vw;  
-	width: 6vw;
-	margin: auto;
-	background-size: cover;
-	background-position: center;
-}
-
-#Sposor-1{
-	background-image: url(../images/Sponsers/bjf.png);
-}
-
-#Sposor-2{
-	background-image: url(../images/Sponsers/igwt.jpeg);
-}
-
-#Sposor-3{
-	background-image: url(../images/Sponsers/KCA.png);
-}
-
-#Sposor-4{
-	background-image: url(../images/Sponsers/litefit.png);
-}
-
-#Sposor-5{
-	background-image: url(../images/Sponsers/RJJR.webp);
-}
-
-/* Copy rights */
-#line{
-	border:white 0.1px solid;
-	width: 90vw;
-	margin: auto;
-}
 
 #copyrights{
-	font-family: "Roboto Mono", monospace;
+	border-style: solid;
+	border-color: white;
+	border-width: 0;
+	border-top-width: 0.05vw;
+	height: 3vw;
+	line-height: 3vw;
 }
 
-/* alert */
+
+
+
 #alert {
-  padding: 20px 100px 20px 100px;
+  padding: 10px 50px 10px 50px;
   border-radius: 50px;
   position: fixed;
-  left: 3vw;
-  bottom: 2vw;
+  left: 2vw;
+  bottom: 1vw;
   background-color: red;
   color: white
 }

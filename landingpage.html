@@ -23,7 +23,7 @@
 
         <a href='#' class="navDecor" id="MenuItem-1">Зачем</a>
         <a href='#' class="navDecor" id="MenuItem-2">Расписание</a>
-        <a href='#' class="navDecor" id="menulogo"><img id="MenuItem-3image" src="images/logo.png"></a>
+        <a href='#' class="" id="menulogo"><img id="MenuItem-3image" src="images/logo.png"></a>
         <a href='#' class="navDecor" id="MenuItem-4">Тренеры</a>
         <a href='#' class="navDecor" id="MenuItem-5">Контакты</a>
 
@@ -152,24 +152,24 @@
         <div id="trainerscontent">
             <div id="trainer1" class="trainer">
                 <div class="trainerinfocontainer">
-                    <div class="TrinerName subheading">Александр "Шанс" Фамилия</div>
-                    <div class="TrainerData">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore deleniti
+                    <div class="TrinerName subheading trainerFont">Александр "Шанс" Фамилия</div>
+                    <div class="TrainerData trainerFont">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore deleniti
                         mollitia numquam, quo, vitae aliquid voluptatem provident asperiores assumenda molestiae illo
                         soluta illum voluptate. Saepe enim accusamus laborum ab eligendi?</div>
                 </div>
             </div>
             <div id="trainer2" class="trainer">
                 <div class="trainerinfocontainer">
-                    <div class="TrinerName subheading">Александр "Граф" Фамилия</div>
-                    <div class="TrainerData">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore deleniti
+                    <div class="TrinerName subheading trainerFont">Александр "Граф" Фамилия</div>
+                    <div class="TrainerData trainerFont">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore deleniti
                         mollitia numquam, quo, vitae aliquid voluptatem provident asperiores assumenda molestiae illo
                         soluta illum voluptate. Saepe enim accusamus laborum ab eligendi?</div>
                 </div>
             </div>
             <div id="trainer3" class="trainer">
                 <div class="trainerinfocontainer">
-                    <div class="TrinerName subheading">Данила "Даня" Хохлов</div>
-                    <div class="TrainerData">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore deleniti
+                    <div class="TrinerName subheading trainerFont">Данила "Даня" Хохлов</div>
+                    <div class="TrainerData trainerFont">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore deleniti
                         mollitia numquam, quo, vitae aliquid voluptatem provident asperiores assumenda molestiae illo
                         soluta illum voluptate. Saepe enim accusamus laborum ab eligendi?</div>
                 </div>
@@ -181,31 +181,26 @@
 
 
     <!-- Section: Contact Us -->
-    <section id='contact_form' class="bgcolor">
+    <section id='contact_form' class="bgcolor test">
 
-        <div id="contactheading" class="heading">Расписание занятий</div>
-
+        <div id="contactheading" class="heading test">Контакты</div>
             <div id="ContactUs">
                 
-                <div class="contactcontainer">
+                <div class="contactcontainer test">
                     Как добраться?
                     <iframe class='contact_content' src="https://yandex.ru/map-widget/v1/?um=constructor%3A7d69c227c2dd77bc8608508dccb7de6377d99a24c81204c87f51b280adef272a&amp;source=constructor" frameborder="0"></iframe>
                 </div>
 
-                <div class="contactcontainer">
+                <div class="contactcontainer test">
                     
                     Запишитесь на недельное обучение
 
-                    <div class='contact_content'>
+                    <div class='contact_content test'>
                         
-                        <form>
-                            <input class="formfield" type="text" name="name" placeholder="Name">
-                            <input class="formfield" type="text" name="phone" placeholder="Phone Number">
-                            <input class="formfield" type="text" name="message" placeholder="Write Us A Message">
-                            <button id="formsendbutton">Send</button>
-                        </form>
-
-                        <div id="social_links">
+                        <div id="gym_info" class="test">
+                            Information
+                        </div>
+                        <div id="social_links" class = 'test'>
                             <div class='socialIcon' id="fbIcon"></div>
                             <div class='socialIcon' id="YTIcon"></div>
                             <div class='socialIcon' id="VKIcon"></div>
@@ -216,23 +211,21 @@
                         <br>
                         Mail: <a href="mailto:tanishk.sharma@live.com">tanishk.sharma@live.com</a>
 
+                        <!-- Sponsors -->
+                        <div id="sponsorArea" class="bgcolor test">
+                            <div id="sponsorheading" class="heading test">Партнеры</div>
+                            <div id="sponsor-info">
+                                <a class="sponsorIcon " id="Sposor-1"></a>
+                                <a class="sponsorIcon" id="Sposor-2"></a>
+                                <a class="sponsorIcon" id="Sposor-3"></a>
+                                
+                            </div>
+                        </div>
                     </div>
+                    
                 </div>
             </div>
 
-    </section>
-
-
-
-
-    <section id="sponsorArea" class="bgcolor">
-        <div id="sponsorheading" class="heading">Партнеры</div>
-        <div id="sponsor-info">
-            <a class="sponsorIcon" id="Sposor-1"></a>
-            <a class="sponsorIcon" id="Sposor-2"></a>
-            <a class="sponsorIcon" id="Sposor-3"></a>
-            
-        </div>
     </section>
 
 
@@ -242,10 +235,11 @@
     </div>
 
     <!-- Section: Alert -->
-    <div>
-        <a id="alert">
+    <div id='AlertArea'>
+        <div id="alert">
             Call Me Now
-        </a>
+        </div>
+        <div id="callIconArea"><img src="/images/icons/call_me.png" id="call_icon" alt=""></div>
     </div>
 
     <!-- Pop Call Back -->
@@ -254,7 +248,7 @@
             <!-- order call text -->
             <div id="OrderCallText" class="callBackFont">
                 Заказать обратный звонок
-                <span><button href="" id='cross'>x</button></span>
+                <span href="" id='cross'>X</span>
             </div>
             <!-- Form -->
             <div id="form_Callback" class="callbackform callBackFont temp">
@@ -285,6 +279,10 @@
             <div id="OrderCallSend" class="">
                 <button id="send" class='font' href='#'>
                     Отправить
+                    <!-- icon of send -->
+                    <span>
+                        ->
+                    </span>
                 </button>
             </div>
         </div>

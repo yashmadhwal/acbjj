@@ -400,14 +400,20 @@ section {
 	margin: auto;
 }
 
-#AlertArea{
-
-	transition: all .2s ease-in-out;
-}
 #AlertArea:hover{
+	cursor: pointer;
+	transform: scale(1.1);
+	transition: all .2s ease-in-out;
+   }
+
+#AlertArea:hover #callIconArea{
  cursor: pointer;
- transform: scale(1.1);
+ transform: scale(1.5);
+ transition: all .2s ease-in-out;
 }
+
+
+
 
 
 /* Pop Up Call Back */

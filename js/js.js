@@ -1,3 +1,7 @@
+// Navigation Area:
+
+screen_width = screen.width;
+
 function scrolled() {
     if(window.pageYOffset > 100){
         NavigationBar.style.height = '2.5vw'
@@ -12,3 +16,17 @@ function scrolled() {
         NavigationBar.style.backgroundColor = 'rgba(0, 0, 0, 0)'
     }
 }
+
+if(screen_width<= 425){
+
+    navigation = document.querySelectorAll('#NavigationBar a');
+    console.log(navigation)
+}
+
+
+// Call Me Functionality
+document.getElementById("alert").addEventListener("click", function(){
+document.querySelector('.PopCallBack').style.display='flex';})
+        
+document.getElementById("cross").addEventListener("click", function(){
+document.querySelector('.PopCallBack').style.display='none';})

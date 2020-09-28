@@ -17,15 +17,19 @@ function scrolled() {
     }
 }
 
+// Manipulating Navigation Area for Mobile
 if(screen_width<= 425){
-
     navigation = document.querySelectorAll('#NavigationBar a');
     console.log(navigation)
+    
+    // for (let i = 0; i < navigation.length; i++) {
+    //     navigation[i].innerHTML = 'hello'
+    //   }
 }
 
 
 // Call Me Functionality
-document.getElementById("alert").addEventListener("click", function(){
+document.getElementById("AlertArea").addEventListener("click", function(){
 document.querySelector('.PopCallBack').style.display='flex';})
         
 document.getElementById("cross").addEventListener("click", function(){

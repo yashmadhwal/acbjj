@@ -34,3 +34,7 @@ document.querySelector('.PopCallBack').style.display='flex';})
         
 document.getElementById("cross").addEventListener("click", function(){
 document.querySelector('.PopCallBack').style.display='none';})
+
+// Removing lineunder menulogo
+
+//Active Scrolling

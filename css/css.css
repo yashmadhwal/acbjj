@@ -1,4 +1,7 @@
 /* Basics */
+html{
+	scroll-behavior: smooth;
+}
 
 body {
 	margin: 0;
@@ -77,10 +80,12 @@ section {
 			transform-origin: left;
 			transition: transform .5s ease;
 		}
-
+		
 		.navDecor:hover::after{
 			transform: scaleX(1);
 		}
+
+		/* Active Section */
 
 
 /* HeroPage */
@@ -386,6 +391,7 @@ section {
   background-color: rgb(255, 153, 0);
   color: black;
   display: flex;
+  transition: all 0.1s ease-in; 
   
 }
 
@@ -396,21 +402,24 @@ section {
 #call_icon{
 	/* margin: auto; */
 	height: 2vw;
+	animation: shake 0.5s;
+	animation-iteration-count: infinite;
 }
+
+/* Animation for call sign */
+  @keyframes shake {
+	 50%{ transform: translate(0vw, 0vw) rotate(10deg); }
+  }
+
 #alert{
 	margin: auto;
 }
 
-#AlertArea:hover{
-	cursor: pointer;
-	transform: scale(1.1);
-	transition: all .2s ease-in-out;
-   }
 
-#AlertArea:hover #callIconArea{
+#AlertArea:hover {
  cursor: pointer;
- transform: scale(1.5);
- transition: all .2s ease-in-out;
+ transform: scale(1.1);
+ transition: all 0.2s ease-out;
 }
 
 

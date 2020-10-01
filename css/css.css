@@ -66,6 +66,7 @@ section {
 		.navDecor{
 			position: relative;
 			font-size: 1.3vw;
+			transition-duration: 0.5s;
 		}
 
 		.navDecor::after{

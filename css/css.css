@@ -100,14 +100,14 @@ section {
 	font-family: "Taviraj";
 }
 	#herovideo {
-		position: relative;
+		position: fixed;
 		top: 0;
 		z-index: -1;
 		height: 100%;
 		width: 177.77777778vh;
 		min-width: 100%;
 		min-height: 56.25vw;
-		position: absolute;
+		/* position: absolute; */
 		left: 50%;
 		top: 50%;
 		transform: translate(-50%, -50%);
@@ -209,9 +209,13 @@ section {
 
 /* Trainers */
 
-#Trainers {}
+#Trainers {
+	padding-left: 2vw;
+	padding-right: 2vw;
+}
 	#trainersheading {
 		margin-bottom: 1vw;
+
 	}
 	#trainerscontent{
 		display: flex;
@@ -223,8 +227,8 @@ section {
 		}
 
 		.trainer {
-			height: 30vw;
-			width: 22vw;
+			height: 45vw;
+			width: 30vw;
 			background-size: cover;
 			background-position: center;
 			position: relative;
@@ -278,15 +282,21 @@ section {
 /* Contact Form */
 
 #contact_form {
-	padding-top: 0;
-	padding-bottom: 0;
+	background-color: transparent;
+	position: relative;
 }
+	#CenterAreaBgColor{
+		
+		background-color: rgb(25, 25, 25,0.8);
+	}
+
 	#contactheading {
 		margin-bottom: 1vw;
 	}
 		#ContactUs {
 			display: flex;
 			justify-content: space-around;
+			padding-bottom: 0.5vw;
 		}
 			.contactcontainer {
 				height: 35vw;
@@ -295,7 +305,7 @@ section {
 				.contact_content{
 					/* margin-top: 1vw; */
 					position: relative;
-					width: 100%;
+					width: 39vw;
 					height: 32vw;
 				}
 
@@ -350,21 +360,34 @@ section {
 
 	#sponsor-info {
 		display: flex;
-		justify-content: space-evenly;
+		justify-content: space-between;
+		height: 6vw; 
 	}
 		.sponsorIcon{
 			display: block;
 			height: 5vw;  
 			width: 5vw;
-			margin: auto;
+			/* margin: auto; */
 			background-size: cover;
 			background-position: center;
 		}
-			#Sposor-1{background-image: url(../images/Sponsers/bjf.png);}
-			#Sposor-2{background-image: url(../images/Sponsers/igwt.jpeg);}
-			#Sposor-3{background-image: url(../images/Sponsers/KCA.png);}
-			#Sposor-4{background-image: url(../images/Sponsers/litefit.png);}
-			#Sposor-5{background-image: url(../images/Sponsers/RJJR.webp);}
+		#Sposor-1{
+			background-image: url(../images/Sponsers/fightwear.png);
+			width: 12vw;
+			border-radius: 0%;
+			background-size: 100% auto;
+			background-repeat: no-repeat;
+		}
+		/* #Sposor-1{background-image: url(../images/Sponsers/KCA.png);} */
+		#Sposor-2{background-image: url(../images/Sponsers/igwt.jpeg);}
+		#Sposor-3{background-image: url(../images/Sponsers/bjf.png);}
+		#Sposor-4{
+			background-image: url(../images/Sponsers/Tattoo3000.png);
+			width: 12vw;
+			border-radius: 0%;
+			background-size: 100% auto;
+			background-repeat: no-repeat;
+		}
 
 
 /* Partner */
@@ -373,12 +396,17 @@ section {
 }
 
 #copyrights{
+	position: absolute;
 	border-style: solid;
 	border-color: white;
 	border-width: 0;
 	border-top-width: 0.05vw;
 	height: 3vw;
 	line-height: 3vw;
+	bottom: 0;
+	left: 0;
+	width: 100vw;
+	margin: 0px;
 }
 
 

@@ -5,15 +5,16 @@ screen_width = screen.width;
 function scrolled() {
 
     // the scrolling function
-    if(window.pageYOffset > (screen.height/2+screen.width*0.1)) x = 1
+    if(window.pageYOffset > (screen.height/2+screen.width*0.1)){ x = 1}
     if(window.pageYOffset > (screen.height/2+screen.width*0.60)) x = 2
     if(window.pageYOffset > (screen.height/2+screen.width*1)) x = 4
     if(window.pageYOffset > (screen.height/2+screen.width*1.3))x = 5
+    
     document.getElementById("MenuItem-1").style.borderBottom = "solid 0px"
     document.getElementById("MenuItem-2").style.borderBottom = "solid 0px"
     document.getElementById("MenuItem-4").style.borderBottom = "solid 0px"
     document.getElementById("MenuItem-5").style.borderBottom = "solid 0px"
-    document.getElementById("MenuItem-"+x).style.borderBottom = "solid 3px"
+    // document.getElementById("MenuItem-"+x).style.borderBottom = "solid 3px"
 
     if(window.pageYOffset > 100){
         NavigationBar.style.height = '2.5vw'

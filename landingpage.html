@@ -11,13 +11,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Taviraj:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://api-maps.yandex.ru/1.1/index.xml" type="text/javascript"></script>
-    <title>ACBJJ</title>
+    <title>chancejj</title>
 </head>
 
 <body onscroll="scrolled()">
-
-
-
 
     <!-- Navigation Here -->
     <header id='NavigationBar'>
@@ -30,14 +27,11 @@
 
     </header>
 
-
-
-
     <!-- Section: HeroPage -->
     <section id="HeroPage">
 
         <video autoplay loop id="herovideo">
-            <source src="images/videoplayback_1.mp4" type="video/mp4">
+            <source src="images/videoplayback_1.webm">
         </video>
 
         <div id="herocontent">
@@ -185,21 +179,21 @@
 
 
     <!-- Section: Contact Us -->
-    <section id='contact_form' class="bgcolor test">
+    <section id='contact_form' class="bgcolor">
+        <div id="CenterAreaBgColor" class="">
+            <div id="contactheading" class="heading ">Контакты</div>
+            <div id="ContactUs">
 
-        <div id="contactheading" class="heading test">Контакты</div>
-        <div id="ContactUs">
-
-            <div class="contactcontainer test">
-                Как добраться?
+                <!-- <div class="contactcontainer test">
+                    Как добраться? -->
                 <iframe class='contact_content'
                     src="https://yandex.ru/map-widget/v1/?um=constructor%3A7d69c227c2dd77bc8608508dccb7de6377d99a24c81204c87f51b280adef272a&amp;source=constructor"
                     frameborder="0"></iframe>
-            </div>
+                <!-- </div> -->
 
-            <div class="contactcontainer test">
+                <!-- <div class="contactcontainer test"> -->
 
-                Запишитесь на недельное обучение
+                <!-- Запишитесь на недельное обучение -->
 
                 <div class='contact_content test'>
 
@@ -213,18 +207,19 @@
                     Mail: <a href="mailto:tanishk.sharma@live.com">tanishk.sharma@live.com</a>
 
                     <!-- Sponsors -->
-                    <div id="sponsorArea" class="bgcolor test">
+                    <div id="sponsorArea" class="test">
                         <div id="sponsorheading" class="heading test">
                             Партнеры
-                            <div id="sponsor-info">
+                            <div class="test" id="sponsor-info">
                                 <a href="#" class="sponsorIcon partner" id="Sposor-1"></a>
                                 <a href="#" class="sponsorIcon partner" id="Sposor-2"></a>
                                 <a href="#" class="sponsorIcon partner" id="Sposor-3"></a>
+                                <a href="#" class="sponsorIcon partner" id="Sposor-4"></a>
                             </div>
                         </div>
                     </div>
 
-                    <div id="social_links" class='test'>                        
+                    <div id="social_links" class='test'>
                         <a href="#" class='socialIcon' id="fbIcon"></a>
                         <a href="#" class='socialIcon' id="YTIcon"></a>
                         <a href="#" class='socialIcon' id="VKIcon"></a>
@@ -232,16 +227,16 @@
                     </div>
                 </div>
 
+                <!-- </div> -->
             </div>
         </div>
-
+        <!-- Section copyrights -->
+        <div id="copyrights" class="bgcolor">
+            © 2020 Alexander Chance Academy BJJ, Russia, Inc. All Rights Reserved.
+        </div>
     </section>
 
 
-    <!-- Section copyrights -->
-    <div id="copyrights" class="bgcolor">
-        © 2020 Alexander Chance Academy BJJ, Russia, Inc. All Rights Reserved.
-    </div>
 
     <!-- Section: Alert -->
     <div id='AlertArea'>
@@ -260,42 +255,47 @@
                 <span href="" id='cross'>X</span>
             </div>
             <!-- Form -->
-            <div id="form_Callback" class="callbackform callBackFont temp">
+            <form action="response.php" method="POST">
+                <div id="form_Callback" class="callbackform callBackFont temp">
 
-                <div id="yourNameArea" class="NamePhoneArea">
-                    <div id="name_input" class="NamePhone formsize ">Ваше имя</div>
-                    <div id="name_input_form" class="">
-                        <input class='inputCallBack' type="text">
+                    <div id="yourNameArea" class="NamePhoneArea">
+                        <div id="name_input" class="NamePhone formsize ">Ваше имя</div>
+                        <div id="name_input_form" class="">
+                            <input class='inputCallBack' type="text" name='Name' required>
+                        </div>
+                    </div>
+
+                    <div id="yourPhoneArea" class="NamePhoneArea">
+                        <div id="phone_input" class="NamePhone formsize">Телефон</div>
+                        <div id="phone_input_form" class="">
+                            <input class='inputCallBack' type="text" name='Number' placeholder="+7(___)___-____"
+                                required>
+                        </div>
                     </div>
                 </div>
 
-                <div id="yourPhoneArea" class="NamePhoneArea">
-                    <div id="phone_input" class="NamePhone formsize">Телефон</div>
-                    <div id="phone_input_form" class="">
-                        <input class='inputCallBack' type="text" placeholder="+7(___)___-____">
-                    </div>
+
+                <!-- Dataprocessing Form -->
+                <div id="OrderCallDataProcess" class="">
+
+                    <!-- <input type="checkbox" id="checkbox" name="scales" checked> -->
+                    <a href="" id="privacy">Политика конфиденциальности</a>
                 </div>
-            </div>
 
-            <!-- Dataprocessing Form -->
-            <div id="OrderCallDataProcess" class="">
-
-                <!-- <input type="checkbox" id="checkbox" name="scales" checked> -->
-                <a href="" id="privacy">Политика конфиденциальности</a>
-            </div>
-
-            <!-- Send -->
-            <div id="OrderCallSend" class="">
-                <button id="send" class='font' href='#'>
-                    Отправить
-                    <!-- icon of send -->
-                    <span>
-                        ->
-                    </span>
-                </button>
-            </div>
+                <!-- Send -->
+                <div id="OrderCallSend" class="">
+                    <button id="send" class='font' href='#'>
+                        Отправить
+                        <!-- icon of send -->
+                        <span>
+                            ->
+                        </span>
+                    </button>
+                </div>
+            </form>
         </div>
     </div>
+
 </body>
 
 

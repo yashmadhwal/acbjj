@@ -24,6 +24,7 @@ section {
 
 .heading {
 	font-size: 2vw;
+	margin-bottom: 2vw;
 }
 
 .subheading {
@@ -134,7 +135,7 @@ section {
 /* WhyBJJ */
 
 #whybjjheading {
-	margin-bottom: 3vw;
+	margin-bottom: 2vw;
 }
 #whybjjcontent {
 	display: flex;
@@ -214,7 +215,7 @@ section {
 	padding-right: 2vw;
 }
 	#trainersheading {
-		margin-bottom: 1vw;
+		margin-bottom: 2vw;
 
 	}
 	#trainerscontent{
@@ -291,27 +292,35 @@ section {
 	}
 
 	#contactheading {
-		margin-bottom: 1vw;
+		/* margin-bottom: 1vw; */
 	}
 		#ContactUs {
 			display: flex;
 			justify-content: space-around;
-			padding-bottom: 0.5vw;
+			/* padding-bottom: 0.5vw; */
+			padding: 2vw;
+
 		}
-			.contactcontainer {
-				height: 35vw;
-				width: 39vw;
-			}
 				.contact_content{
 					/* margin-top: 1vw; */
 					position: relative;
-					width: 39vw;
-					height: 32vw;
+					width: 35vw;
+					height: 30vw;
 				}
 
 				.test{
 					border: 1px solid white;
 				}
+				#clubInfomation{
+					margin: auto;
+				}
+					.contactInformationHeading{
+						font-size: 1.5vw;
+						font-family: 'Tinos', serif;
+						text-decoration: underline;
+						font-style: italic;
+					}
+
 					.formfield{
 						display: block;
 						margin: auto;
@@ -331,9 +340,9 @@ section {
 					}
 					#social_links{
 						display: flex;
-						margin: auto;
+						/* margin: auto; */
 						width: 50%;
-						justify-content: space-evenly;
+						justify-content: space-around;
 						position: absolute;
 						bottom: 0;
 						left:25%;
@@ -342,6 +351,7 @@ section {
 						.socialIcon{
 							height: 2vw;  
 							width: 2vw;
+							margin: auto;
 							background-size: cover;
 							background-position: center;
 						}
@@ -349,8 +359,26 @@ section {
 							#YTIcon{background-image: url(../images/Social_Media_Icons/icons8-youtube-squared-50.png);}
 							#VKIcon{background-image: url(../images/Social_Media_Icons/icons8-vk.com-50.png);}
 							#InstIcon{background-image: url(../images/Social_Media_Icons/icons8-instagram-50.png);}
+	.address_contact{
+		margin: 0vw;
+		margin-left: 1vw;
+		text-align: left;
+	}
 
+	#address{
+		font-size: 2vw; 
+	}
 
+	#OtherInformation{
+		font-size: 1.5vw;
+	}
+
+	#CallRequest{
+		text-align: center;
+		padding-top: 0.7vw;
+		font-size: 1.2vw;
+		font-style: italic;
+	}
 
 #sponsorArea {
 		position: absolute;
@@ -367,7 +395,7 @@ section {
 			display: block;
 			height: 5vw;  
 			width: 5vw;
-			/* margin: auto; */
+			margin: auto;
 			background-size: cover;
 			background-position: center;
 		}

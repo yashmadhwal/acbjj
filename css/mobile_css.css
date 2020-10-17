@@ -1,5 +1,5 @@
 /* Media Query for Mobile (Size: L,M,S)  */
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 550px){
 
     #NavigationBar {
         position: fixed;

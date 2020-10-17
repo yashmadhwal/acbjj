@@ -19,7 +19,7 @@ a{
 }
 
 section {
-	padding: 5vw;
+	padding: 10vw;
 }
 
 .heading {
@@ -66,7 +66,7 @@ section {
 
 		.navDecor{
 			position: relative;
-			font-size: 1.3rem;
+			font-size: 1.3vw;
 			transition-duration: 0.5s;
 		}
 
@@ -121,13 +121,12 @@ section {
 			top: 50%;
 			transform: translate(-50%, -50%);
 			-webkit-text-stroke: 1px rgba(0, 0, 0, 0.25);
-			width: 100vw;
 		}
 			#herocontent-1 {
-				font-size: 1.5rem;
+				font-size: 1.5vw;
 			}
 			#herocontent-2 {
-				font-size: 5rem;
+				font-size: 5vw;
 			}
 
 
@@ -225,7 +224,7 @@ section {
 	}
 		.trainerFont{
 			/* -webkit-text-stroke: 1px black; */
-			color: white;
+			color: black;
 		}
 
 		.trainer {
@@ -263,9 +262,7 @@ section {
 				.TrinerName{
 					margin-bottom: 1vw;
 				}
-				.TrainerData{
-					
-				}
+				.TrainerData{}
 
 
 
@@ -396,8 +393,8 @@ section {
 	}
 		.sponsorIcon{
 			display: block;
-			height: 3vw;  
-			width: 3vw;
+			height: 5vw;  
+			width: 5vw;
 			margin: auto;
 			background-size: cover;
 			background-position: center;
@@ -418,9 +415,6 @@ section {
 			border-radius: 0%;
 			background-size: 100% auto;
 			background-repeat: no-repeat;
-		}
-		#Sposor-5{
-			background-image: url(../images/Sponsers/KCA.png);
 		}
 
 

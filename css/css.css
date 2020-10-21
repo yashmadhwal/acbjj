@@ -338,27 +338,7 @@ section {
 						line-height: 2vw;
 						border-radius: 0.2vw;
 					}
-					#social_links{
-						display: flex;
-						/* margin: auto; */
-						width: 50%;
-						justify-content: space-around;
-						position: absolute;
-						bottom: 0;
-						left:25%;
 
-					}
-						.socialIcon{
-							height: 2vw;  
-							width: 2vw;
-							margin: auto;
-							background-size: cover;
-							background-position: center;
-						}
-							#fbIcon{background-image: url(../images/Social_Media_Icons/icons8-facebook-50.png);}
-							#YTIcon{background-image: url(../images/Social_Media_Icons/icons8-youtube-squared-50.png);}
-							#VKIcon{background-image: url(../images/Social_Media_Icons/icons8-vk.com-50.png);}
-							#InstIcon{background-image: url(../images/Social_Media_Icons/icons8-instagram-50.png);}
 	.address_contact{
 		margin: 0vw;
 		margin-left: 1vw;
@@ -382,41 +362,67 @@ section {
 
 #sponsorArea {
 		position: absolute;
-  		bottom: 7%;
 		width: 100%;
 }
 
 	#sponsor-info {
-		display: flex;
+		display: block;
 		justify-content: space-between;
-		height: 6vw; 
+		/* height: 6vw;  */
 	}
+
+	#SponsorRowOne{
+		display: flex;
+	}
+
+	#SponsorRowTwo{
+		display: flex;
+	}
+
 		.sponsorIcon{
 			display: block;
-			height: 5vw;  
-			width: 5vw;
+			height: 4vw;  
+			width: 4vw;
 			margin: auto;
 			background-size: cover;
 			background-position: center;
 		}
-		#Sposor-1{
-			background-image: url(../images/Sponsers/fightwear.png);
-			width: 12vw;
+		#Sposor-1{background-image: url(../images/Sponsers/igwt.jpeg);}
+		#Sposor-2{background-image: url(../images/Sponsers/bjf.png);}
+		#Sposor-3{background-image: url(../images/Sponsers/KCA.png);}
+		#Sposor-4{background-image: url(../images/Sponsers/Tattoo3000.png);}
+		#Sposor-5{background-image: url(../images/Sponsers/fightwear.png);}
+		.bottomRowSponsor{
 			border-radius: 0%;
-			background-size: 100% auto;
-			background-repeat: no-repeat;
-		}
-		/* #Sposor-1{background-image: url(../images/Sponsers/KCA.png);} */
-		#Sposor-2{background-image: url(../images/Sponsers/igwt.jpeg);}
-		#Sposor-3{background-image: url(../images/Sponsers/bjf.png);}
-		#Sposor-4{
-			background-image: url(../images/Sponsers/Tattoo3000.png);
 			width: 12vw;
-			border-radius: 0%;
+			height: 3vw; 
+			margin-top: 0.5vw;
+			margin-bottom: 0.5vw;
 			background-size: 100% auto;
 			background-repeat: no-repeat;
 		}
 
+		#social_links{
+			display: flex;
+			margin: auto;
+			width: 50%;
+			justify-content: space-around;
+			position: absolute;
+			bottom: 0;
+			left:25%;
+
+		}
+			.socialIcon{
+				height: 2vw;  
+				width: 2vw;
+				margin: auto;
+				background-size: cover;
+				background-position: center;
+			}
+				#fbIcon{background-image: url(../images/Social_Media_Icons/icons8-facebook-50.png);}
+				#YTIcon{background-image: url(../images/Social_Media_Icons/icons8-youtube-squared-50.png);}
+				#VKIcon{background-image: url(../images/Social_Media_Icons/icons8-vk.com-50.png);}
+				#InstIcon{background-image: url(../images/Social_Media_Icons/icons8-instagram-50.png);}
 
 /* Partner */
 .partner{

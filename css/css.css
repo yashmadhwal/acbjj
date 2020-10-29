@@ -228,8 +228,8 @@ section {
 		}
 
 		.trainer {
-			height: 45vw;
-			width: 30vw;
+			height: 40vw;
+			width: 23vw;
 			background-size: cover;
 			background-position: center;
 			position: relative;
@@ -249,6 +249,10 @@ section {
 		}
 		#trainer3 {
 			background-image: url(../images/Trainers/trainer3.png);
+		}
+
+		#trainer4 {
+			background-image: url(../images/Trainers/trainer4.jpeg);
 		}
 			.trainerinfocontainer {
 				position: relative;

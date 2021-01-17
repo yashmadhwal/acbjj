@@ -23,12 +23,15 @@ section {
 }
 
 .heading {
-	font-size: 2vw;
+	/* font-size: 2vw; */
+	font-size: 30px;
+	letter-spacing: 3px;
 	margin-bottom: 2vw;
 }
 
 .subheading {
 	font-size: 1.3vw;
+	
 }
 
 .bgcolor{
@@ -42,7 +45,8 @@ section {
 
 #NavigationBar {
 	position: fixed;
-	height: 6vw;
+	/* height: 6vw; */
+	height: 35px;
 	width: 60vw;
 	padding-left: 20vw;
 	padding-right: 20vw;
@@ -55,8 +59,8 @@ section {
 	z-index: 10;
 }
 	#menulogo{
-		height: 4vw;
-		width: 4vw;
+		height: 30px;
+		width: 30px;
 		transition-duration: 0.3s;
 	}
 		#MenuItem-3image{
@@ -66,7 +70,9 @@ section {
 
 		.navDecor{
 			position: relative;
-			font-size: 1.3vw;
+			/* font-size: 1.3vw; */
+			font-size: 22px;
+			letter-spacing: 2px;
 			transition-duration: 0.5s;
 		}
 
@@ -124,9 +130,13 @@ section {
 		}
 			#herocontent-1 {
 				font-size: 1.5vw;
+				letter-spacing: 0.3vw;
 			}
 			#herocontent-2 {
+				width: 80vw;
+				margin: auto;
 				font-size: 5vw;
+				letter-spacing: 1vw;
 			}
 
 
@@ -138,18 +148,24 @@ section {
 	margin-bottom: 2vw;
 }
 #whybjjcontent {
+	/* border: 1px solid white; */
 	display: flex;
-	justify-content: center;
+	/* justify-content: center; */
+	justify-content: space-around;
+	/* flex-direction: row; */
 }
 	.whybjjitem {
-		width: 15vw;
+		/* width: 15vw; */
 	}
 		.WhybjjIcon {
+			
 			filter: invert(1);
 			margin: auto;
 			margin-bottom: 1vw;
-			height: 2vw;
-			width: 2vw;
+			/* height: 2vw;
+			width: 2vw; */
+			height: 50px;
+			width: 50px;
 			background-size: cover;
 			background-position: center;
 		}
@@ -169,6 +185,8 @@ section {
 				background-image: url(../images/icons/Icon5.png);
 			}
 		.whybjjitemsubheadung {
+			font-size: 20px;
+			letter-spacing: 2px;
 			margin-bottom: 0.5vw;
 		}
 
@@ -235,24 +253,49 @@ section {
 			position: relative;
 			overflow: hidden;
 		}
+
+		.trainerPosition{
+		}
+
+		.trainer:hover .imgtext {
+			-webkit-opacity: 1;
+			opacity: 1;
+		  }
+
 		.trainer:hover {
 			filter: grayscale(100%);
 		}
+
 		.trainer:hover .trainerinfocontainer{
 			opacity: 1;
+			position: absolute;
+			transition-duration: 0.5s;
 		}
+
+		img:hover{
+			transition-duration: 0.5s;
+			-webkit-filter: blur(5px);
+		}
+
+
 		#trainer1 {
-			background-image: url(../images/Trainers/trainer1.jpg);
+			position: relative;
+			/* background-image: url(../images/Trainers/chance.jpg); */
+			width:100%;
+			height:100%;
+			
 		}
 		#trainer2 {
-			background-image: url(../images/Trainers/trainer2.png);
+			background-image: url(../images/Trainers/graf.jpg);
+			
 		}
 		#trainer3 {
-			background-image: url(../images/Trainers/trainer3.png);
+			background-image: url(../images/Trainers/Danya.jpg);
 		}
 
 		#trainer4 {
 			background-image: url(../images/Trainers/trainer4.jpeg);
+			background-size: 50vw;
 		}
 			.trainerinfocontainer {
 				position: relative;
@@ -262,13 +305,14 @@ section {
 				width: 18vw;
 				opacity: 0;
 				transition-duration: 0.3s;
+
 			}
 				.TrinerName{
 					margin-bottom: 1vw;
 				}
-				.TrainerData{}
+				
 
-
+			
 
 
 /* Parallax2 */

@@ -17,9 +17,9 @@ function scrolled() {
     // document.getElementById("MenuItem-"+x).style.borderBottom = "solid 3px"
 
     if(window.pageYOffset > 100){
-        NavigationBar.style.height = '2.5vw'
-        menulogo.style.height = '1.75vw'
-        menulogo.style.width = '1.75vw'
+        NavigationBar.style.height = '40px'
+        menulogo.style.height = '40px'
+        menulogo.style.width = '40px'
         NavigationBar.style.backgroundColor = 'rgba(0, 0, 0, 0.5)'
     }
     else{

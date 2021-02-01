@@ -107,6 +107,7 @@ section {
 	width: 100vw;
 	overflow: hidden;
 	font-family: "Taviraj";
+	background: rgb(0,0,0,0.7);
 }
 	#herovideo {
 		position: fixed;
@@ -121,7 +122,7 @@ section {
 		top: 50%;
 		transform: translate(-50%, -50%);
 		background-color: rgb(173, 173, 173);
-		filter: grayscale(100%);
+		/* filter: grayscale(100%); */
 	}
 		#herocontent {
 			position: absolute;
@@ -405,6 +406,7 @@ section {
 
 #contact_form {
 	background-color: transparent;
+	background: rgb(0,0,0,0.7);
 	position: relative;
 }
 	#CenterAreaBgColor{

@@ -107,8 +107,13 @@ section {
 	width: 100vw;
 	overflow: hidden;
 	font-family: "Taviraj";
-	background: rgb(0,0,0,0.7);
-}
+	background: rgb(0,0,0,0.7);	
+	}
+
+	#mobileBackground{
+		display: none;
+	}
+
 	#herovideo {
 		position: fixed;
 		top: 0;
@@ -578,7 +583,8 @@ section {
   background-color: rgb(255, 153, 0);
   color: black;
   font-size: 20px;
-  display: flex;
+  /* display: flex; */
+  display: none;
   transition: all 0.1s ease-in; 
   
 }
